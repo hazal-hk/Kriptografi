@@ -29,17 +29,6 @@ Ortak: Giriş, karşılaşılan sorunlar, sonuç, görev dağılımı tablosu ve
 | Bilgisayar 3 | `client.py` (İstemci 2) |
 
 
-## Dosya Yapısı
-
-```
-common.py        Mesaj çerçeveleme (gönderme ve alma)
-server.py        Sunucu ve yönlendirme
-client.py        İstemci
-kex.py           Anahtar dağıtım yöntemleri (RSA, DH, ECC, Kyber)   [yapılacak]
-aes_manual.py    Kütüphanesiz AES-128                                [yapılacak]
-captures/        .pcapng dosyaları
-```
-
 ## Durum
 
 - [x] Güvensiz mod (metin + PDF, sunucu üzerinden yönlendirme)
